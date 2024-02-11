@@ -21,3 +21,13 @@
 
         return lps;
     }
+// to find the index of pattern in given string
+
+for(int i=a.size();i<v.size();i++){
+            int el = v[i];
+            if(el == a.size()){
+                int id = i - 2*a.size();
+                if(id>=0)
+                    va.push_back(id);
+            }
+        }

@@ -11,6 +11,10 @@ for(int i=2;i*i<n;i++){
 }
 
 /*
-all the prime numbers less than or equal to a given integer n.
+This code is helpful for finding     all numbers which are prime in a given range 
+time complexity is reduced from O(sqrt(n)*N) to O(N*logN*logN)
+TC -> O(N*logN*logN) 
+
+vector v contains if a number is prime or not
 
 */
